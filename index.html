@@ -6,39 +6,118 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="mystyle.css">
 
     <title>IrinaKuz web developer</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+    <div class="container">
+      <nav class="navbar fixed-top  navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">IK</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#about_me">About me <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-outline-warning">Resume</button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div id="about_me" class="jumbotron">
+          <img src="images/IMG_0080_resize.JPG" alt="Irina Kuznetsov's photo" />
+          <h2 class="display-4">Hello, world!</h2>
+          <h1 class="display-4">Hi! My name is Irina</h1>
+          <p class="lead">I am a web developer. I am inspired by functional as well as beautiful web sites.</p>
+          <hr class="my-4">
+          <p>I like HTML, CSS, JavaScript, and PHP. I am currently learning React.js</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" id="more_about_me" role="button">Read more</a>
+            <p class="invisible" id="more_about_me_p">I graduated from Brooklyn College with BS in Infromation Systems in 2015. During my last semester, I interned in IT department of Department of Probation. It was my first experience with web development. I wanted to continue with learning web development, but then my life took its turn. I had a baby. Since graduating I taught myself HTML, CSS and JavaScript. I dabbed in jQuery, Bootstrap, PHP, Node.js. I worked on my own projects, building stuff online. Eventually I found an tutor job teaching students how to make home pages, how to make forms and write for loops.</p>
+          </p>
         </div>
-      </nav>
+        <section id="skills">
+          <h2>Skills</h2>
+          <div>
+            <h3>Programming languages</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>Bootstrap</li>
+              <li>PHP</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Other skills</h3>
+            <ul>
+              <li>Visual Studio Code</li>
+              <li>Sublime</li>
+              <li>Photoshop</li>
+              <li>Excel</li>
+            </ul>
+          </div>
+        </section>
+        <section id="projects">
+          <h2>Projects</h2>
+          <div class="row">
+            <div class="col-sm-6 col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Project 1</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Project 2</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Project 3</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contact">
+          <h2>Contact</h2>
+          <ul>
+            <li><a href="mailto:ira.kuznets@gmail.com">email</a></li>
+            <li><a href="https://www.linkedin.com/in/irina-kuznetsov-b287a489/">linkedIn</a></li>
+            <li><a href="https://github.com/IrinaKuz">github</a></li>
+          </ul>
+        </section>
+    </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="myscript.js"></script>
   </body>
 </html>
