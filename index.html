@@ -10,100 +10,116 @@
 
     <title>IrinaKuz web developer</title>
   </head>
-  <body>
+  <body class="darknavy-bg light-blue-color">
     <div class="container">
-      <nav class="navbar fixed-top darknavy-bg navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">IK</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+      <nav class="navbar fixed-top darknavy-bg offwhite-color navbar-expand-lg">
+          <a class="navbar-brand offwhite-color" href="#">IK</a>
+          <div class="toggle-btn" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          <!--
+            <button class="navbar-toggler bg-info" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon offwhite-color"></span>
           </button>
+        -->
         
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" href="#about_me">About me <span class="sr-only">(current)</span></a>
+              <li class="nav-item active py-2">
+                <a class="nav-link offwhite-color" href="#about_me">About me <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
+              <li class="nav-item py-2">
+                <a class="nav-link offwhite-color" href="#projects">Projects</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+              <li class="nav-item py-2">
+                <a class="nav-link offwhite-color" href="#contact">Contact</a>
               </li>
-              <li class="nav-item">
-                <button type="button" class="btn btn-outline-warning">Resume</button>
+              <li class="nav-item py-2">
+                <button type="button" class="btn btn-outline offwhite-color">Resume</button>
               </li>
             </ul>
           </div>
         </nav>
         <div id="about_me" class="jumbotron darknavy-bg">
-          <img src="images/IMG_0080_resize.JPG" alt="Irina Kuznetsov's photo" />
-          <h2 class="display-4">Hello, world!</h2>
-          <h1 class="display-4">Hi! My name is Irina</h1>
-          <p class="lead">I am a web developer. I am inspired by functional as well as beautiful web sites.</p>
-          <hr class="my-4">
-          <p>I like HTML, CSS, JavaScript, and PHP. I am currently learning React.js</p>
-          <p class="lead">
-            <a class="btn btn-primary btn-lg" id="more_about_me" role="button">Read more</a>
-            <p class="invisible" id="more_about_me_p">I graduated from Brooklyn College with BS in Infromation Systems in 2015. During my last semester, I interned in IT department of Department of Probation. It was my first experience with web development. I wanted to continue with learning web development, but then my life took its turn. I had a baby. Since graduating I taught myself HTML, CSS and JavaScript. I dabbed in jQuery, Bootstrap, PHP, Node.js. I worked on my own projects, building stuff online. Eventually I found an tutor job teaching students how to make home pages, how to make forms and write for loops.</p>
-          </p>
+          <div class="row pt-5">
+            <!--<h2 class="col-lg-4 display-4 width33lg">Hello, world!</h2>-->
+            <div class="col-lg-4 d-flex justify-content-center">
+              <div class="img-container">
+                
+                
+                <div class="img-bg2"></div>
+                <div class="img-bg1"></div>
+                <img src="images/IMG_0080_resize.JPG" alt="Irina Kuznetsov's photo" width=200 height=266 />
+              </div>
+            </div>
+            <div class="col-lg-8 middle pt-4">
+              <h1 class="display-4">Hi! My name is <span class="light-orange">Irina</span></h1>
+              <p class="lead">I am a <span class="light-orange">web developer</span>. I am inspired by <span class="light-orange">functional</span> as well as <span class="light-orange"></span>beautiful</span> web sites.</p>
+              <p class="lead">I like HTML, CSS, JavaScript, and PHP. I am currently learning React.js</p>
+            </div>
+          </div>          
         </div>
-        <section id="skills">
-          <h2>Skills</h2>
-          <div>
-            <h3>Programming languages</h3>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>jQuery</li>
-              <li>Bootstrap</li>
-              <li>PHP</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Other skills</h3>
-            <ul>
-              <li>Visual Studio Code</li>
-              <li>Sublime</li>
-              <li>Photoshop</li>
-              <li>Excel</li>
-            </ul>
+        <section class="py-lg-5 py-md-2 mx-3" id="skills">
+          <h2 class="light-orange pt-4 pb-2">Skills</h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <h3>Programming languages</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>Bootstrap</li>
+                <li>PHP</li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <h3>Other skills</h3>
+              <ul>
+                <li>Visual Studio Code</li>
+                <li>Sublime</li>
+                <li>Photoshop</li>
+                <li>Excel</li>
+              </ul>
+            </div>
           </div>
         </section>
-        <section id="projects">
-          <h2>Projects</h2>
+        <section class="py-lg-5 py-md-2 mx-3 darknavy-color" id="projects">
+          <h2 class="light-orange pt-4 pb-2">Projects</h2>
           <div class="row">
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4 pb-4">
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Project 1</h5>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Read more</a>
+                  <a href="#" class="btn btn-project">Read more</a>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4 pb-4">
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Project 2</h5>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Read more</a>
+                  <a href="#" class="btn btn-project">Read more</a>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4 pb-4">
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Project 3</h5>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Read more</a>
+                  <a href="#" class="btn btn-project">Read more</a>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section id="contact">
-          <h2>Contact</h2>
+        <section class="py-lg-5 py-md-2 mb-5 mx-3" id="contact">
+          <h2 class="light-orange pt-4 pb-2">Contact</h2>
           <ul>
             <li><a href="mailto:ira.kuznets@gmail.com">email</a></li>
             <li><a href="https://www.linkedin.com/in/irina-kuznetsov-b287a489/">linkedIn</a></li>
@@ -119,5 +135,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="myscript.js"></script>
+    <script src="weather.js"></script>
   </body>
 </html>
