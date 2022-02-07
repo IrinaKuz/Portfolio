@@ -92,7 +92,7 @@ h1{
 #about_me img {
     position: relative;
     top: 0;
-    left: -31px;
+    left: -32px;
     display: block;
     border-radius: 20px 0;
 }
@@ -107,16 +107,16 @@ h1{
     left: -2rem;
     background-color: #B4DFE5;
     opacity: 0.7;
-    border-radius: 5px 20px 5px;
+    border-radius: 20px 20px 5px;
 }
 .img-bg2 {
-    width: calc(200px + 1.5rem);
-    height: calc(266px + 1rem);
+    width: calc(199px + 1.5rem);
+    height: calc(266px + 1.5rem);
     position: absolute;
-    top: -1rem;
-    left: calc(-1rem + -32px);
+    top: -1.5rem;
+    left: calc(-1.5rem + -31px);
     background-color: #F4976C;
-    border-radius: 5px 20px 5px;
+    border-radius: 5px 20px 20px;
 }
 .jumbotron{
     margin-bottom: 0;
